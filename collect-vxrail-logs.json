@@ -1,0 +1,4 @@
+{
+types: ["vxm", "idrac", "vcenter", "esxi", "ptagent"],
+nodes: ["JHN3S62", "JHN1H62", "JHN1BC2"]
+}
