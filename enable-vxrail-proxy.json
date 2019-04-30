@@ -1,0 +1,10 @@
+{  
+   "proxy_spec":{  
+      "esrs_pwd":"Passw0rd!",
+      "server":"172.170.10.175",
+      "port":3128,
+      "username":"test",
+      "pwd":"Passw0rd!",
+      "type":"HTTP"
+   }
+}
