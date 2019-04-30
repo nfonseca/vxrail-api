@@ -1,0 +1,63 @@
+{
+      "bundle_file_locator":"/tmp/VXRAIL_COMPOSITE-4.7.100-9738374_for_4.7.x.zip",
+      "vxrail": {
+          "vxm_root_user": {
+              "username":"root",
+              "password":"*****"
+          }
+      },
+      "vcenter": {
+         "vc_admin_user": {
+             "username":"administrator@vsphere.local",
+             "password":"*****"
+          },
+         "vcsa_root_user": {
+            "username":"root",
+            "password":"*****"
+         },
+         "psc_rootc_user": {
+             "username":"root",
+             "password":"*****"
+         },
+ 
+         "migration_spec": {
+            "source_vcsa_host": {
+ 
+        "name": "vxrail-esx-01.vxrailqe.local",
+        "user": {
+                      "username":"root",
+                      "password":"*****"
+                 }
+             },
+              
+             "source_psc_host": {
+                  
+        "name": "vxrail-esx-01.vxrailqe.local",
+                  
+        "user": {
+                      "username":"root",
+                      "password":"*****"
+                 }
+             },
+ 
+            "target_vcsa_host": {
+                  
+        "name": "vxrail19-esx-02.vxrailqe.local",
+                  
+        "user": {
+                      "username":"root",
+                      "password":"*****"
+                 }
+            },
+ 
+            "temporary_ip_setting": {
+ 
+                "temporary_ip": "10.40.193.53",
+ 
+                "gateway": "10.40.195.253",
+  
+                "netmask": "255.255.252.0"
+            }
+         }
+      }
+}
