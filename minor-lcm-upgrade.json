@@ -1,0 +1,15 @@
+{  
+   "bundle_file_locator":"/tmp/VXRAIL_COMPOSITE-4.7.100-9738374_for_4.7.x.zip,
+   "vxrail":{  
+      "vxm_root_user":{  
+         "username":"root",
+         "password":"*****"
+      }
+   },
+   "vcenter":{  
+      "vc_admin_user":{  
+         "username":"administrator@vsphere.local",
+         "password":"*****"
+      }
+   }
+}
