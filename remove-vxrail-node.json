@@ -1,13 +1,13 @@
 {  
-   "removeHostSpec":{  
-      "serial_number":"PSTN321",
+
+      "serial_number":"1NJZHB20000000",
       "vc_admin_user":{  
          "username":"administrator@vsphere.local",
-         "password":"VxRail123"
+         "password":"Passw0rd!"
       },
       "vcsa_root_user":{  
          "username":"root",
-         "password":"VxRail123"
+         "password":"VxR@il1!"
       }
-   }
+   
 }
